@@ -79,8 +79,10 @@ footer{
   float: right;
 
 }
+
 .content h2{
   padding-top: 40px;
+
 }
 blockquote{
 font-size: 30px;
@@ -100,15 +102,15 @@ height: 273;
 }
 .id1{
 
-  border-width: thin;
-  border-style:solid;
+
 }
 .id1 img{
   width: 320px !important;
 
 }
 .specs{
-  background-color: rgb(62, 70, 82);
+  background-color: rgb(223, 229, 232);
+
   margin-right: 0;
 }
 .specs h3{
@@ -133,4 +135,29 @@ height: 273;
 }
 .grid_8 .specs{
   margin-left: 20px;
+}
+.grid_4 img{
+  width: 300px;
+
+
+}
+.feature h3{
+  font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    color: #333;
+    padding-top: 14px;
+    font-family:sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.feature h4{
+  color: #444;
+    font-weight: 300;
+    text-transform: none;
+}
+.feature p{
+  line-height: 1.8;
+  color: #999;
 }
