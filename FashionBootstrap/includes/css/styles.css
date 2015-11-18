@@ -1,0 +1,249 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+.navbar .navbar-brand {
+  padding-top: 5px;
+}
+
+.navbar .navbar-brand img{
+     width: 175px;
+     padding-top: 0PX;
+ }
+ #searchInput{
+   width: 200px;
+ }
+.navbar{
+  padding-top: 5px;
+  margin-bottom: 0px;
+  height: 60px;
+}
+a{
+  font-weight: 700;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.nav li a:hover{
+  color: #C62A69;
+
+}
+#myCarousel{
+margin-top: 120px;
+margin-bottom: 100px;
+
+}
+#myCarousel .item {
+  height: 450px;
+  width: auto;
+}
+
+.carousel .carousel-indicators li.active {
+    background: #C62A69;
+}
+#slide1{
+  background: url('../../images/3.jpg') top center no-repeat;
+}
+#slide2{
+  background: url('../../images/2.jpg') top center no-repeat;
+}
+#slide3{
+  background: url('../../images/1.jpg') top center no-repeat;
+}
+#slide4{
+  background: url('../../images/4.jpg') top center no-repeat;
+}
+#slide5{
+  background: url('../../images/5.jpg') top center no-repeat;
+}
+#slide6{
+  background: url('../../images/6.jpg') top center no-repeat;
+}
+#slide7{
+  background: url('../../images/7.jpg') top center no-repeat;
+}
+body{
+  background-color: #eee;
+}
+hr{
+  color: black;
+  background: red;
+  line-height: 1.2;
+  border-width: thick;
+}
+.row{
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+.col-sm-3{
+  background-color: #eee;
+}
+.col-sm-3 p{
+  color: #5bc0de;
+}
+.col-sm-3 h3{
+  color: #777;
+  font-size: 15px !important;
+
+  text-transform: uppercase;
+  font-family: sans-serif!important;
+  font-weight: 700px !important;
+  line-height: 1.2;
+
+}
+.col-sm-3 img{
+  width: 270px;
+}
+.col-sm-6 h2{
+  font-size: 22px;
+  color:#999;
+}
+
+.col-sm-6 img{
+  width: 570px;
+}
+.col-sm-6 h3{
+  color: #ccc;
+  font-size: 15px !important;
+
+  text-transform: uppercase;
+  font-family: sans-serif!important;
+  font-weight: 700px !important;
+  line-height: 1.2;
+}
+.col-sm-6 p{
+  color: #777;
+}
+#connect{
+  padding-top: 15px;
+  background-color: #eee;
+  height: 100px;
+  text-align: center;
+}
+#connect img{
+  width: 21px;
+
+}
+#connect h3{
+  font-size: 16px;
+  font-weight:400;
+  color: #777;
+}
+#about{
+  background-color: #eed;
+  text-align: left;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  font-size: 11px;
+  line-height: 1.428571429;
+    color: #333;
+  font-family: "Open Sans",sans-serif;
+}
+#about h5{
+  font-size: 12px;
+  font-weight: bolder;
+  color: #555;
+}
+#about p{
+  color: #555;
+}
+#about span{
+  font-size: 11px;
+  font-weight: lighter;
+}
+#about a{
+    font-size: 11px;
+    text-transform: capitalize;
+    color: #777;
+    text-decoration: none;
+    font-weight: lighter;
+}
+#about p{
+font-size: 11px;
+font-weight: 300;
+}
+.footer {
+  padding-top: 50px;
+  font-family: sans-serif;
+  background-color: #eed;
+  line-height: 1.5;
+
+
+}
+.footer ol {
+
+  list-style: none;
+}
+.footer ol li a{
+  color: #333;
+  font-size: 13px;
+  font-weight: lighter;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.footer .first{
+  padding-bottom: 15px;
+}
+.footer .first a{
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.footer ol img{
+  width: 100px;
+}
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+}
